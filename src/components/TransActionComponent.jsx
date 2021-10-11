@@ -3,7 +3,9 @@
 const TransActionComponent = ({transaction}) => {
     return ( 
         <div>
-            Transactions 
+            <p>Transactions</p>
+            <input type="text" placeholder='search' />
+            
         </div>
      );
 }

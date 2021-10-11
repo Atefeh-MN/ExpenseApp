@@ -1,0 +1,39 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.Input{
+    margin-bottom: 5px ;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    width: 250px;
+}
+.button{
+    background-color: rgba(56, 241, 201, 0.829);
+    padding: 3px 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    border:1px solid rgb(14, 71, 71);
+    color: rgb(14, 71, 71);
+    margin: 10px;
+
+}
+.radio{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 5px;
+    margin-top: 10px;
+
+}
+.label{
+    margin-right: 50px;
+    
+}
