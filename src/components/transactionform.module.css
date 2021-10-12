@@ -1,7 +1,5 @@
 .container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: flex; 
     border: 1px solid #ccc;
     border-radius: 5px;
     padding: 5px;
@@ -9,29 +7,27 @@
     margin-bottom: 10px;
 }
 .Input{
-    margin-bottom: 5px ;
+    margin-bottom: 10px;
     border-radius: 3px;
     border: 1px solid #ccc;
-    padding: 5px;
-    width: 250px;
+    padding: 10px 12px;
+    /* width: 300px; */
 }
 .button{
-    background-color: rgba(56, 241, 201, 0.829);
-    padding: 3px 10px;
+    background-color: rgb(14, 71, 71);
+    padding: 7px 10px;
     font-size: 14px;
     border-radius: 5px;
     border:1px solid rgb(14, 71, 71);
-    color: rgb(14, 71, 71);
+    color: rgba(56, 241, 201, 0.829);
     margin: 10px;
 
 }
 .radio{
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+    justify-content: flex-start;
+    align-items: center;
     margin-bottom: 5px;
-    margin-top: 10px;
-
 }
 .label{
     margin-right: 50px;

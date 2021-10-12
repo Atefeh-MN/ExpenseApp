@@ -9,13 +9,13 @@ const OverViewComponent = ({income,expense,addTransaction}) => {
     return ( 
     <div >
         <div className={style.flex}>
-            <p>Balance : {income-expense}</p>
-            <button className={style.button} onClick={()=>setIsShow((prevstate)=>!prevstate)}>{isShow?"cancel":"Add"}</button>
+            <p style={{fontSize:"18px"}}>Balance : {income-expense} $</p>
+            <button className={isShow? style.cancel:style.button} onClick={()=>setIsShow((prevstate)=>!prevstate)}>{isShow?"cancel":"Add"}</button>
         </div>
         {isShow&& <TransActionForm addTransaction={addTransaction}/>}
         <div className={style.flex}>
-            <div className={style.box1}>Expense -  {expense}</div>
-            <div className={style.box2}>Income - {income}</div>
+            <div className={style.box1}>Expense <span style={{color:'red'}}>{expense} $</span> </div>
+            <div className={style.box1}>Income <span>{income} $</span></div>
         </div>
     </div>
      );
